@@ -1,0 +1,14 @@
+---
+title: "R markdown assign 1"
+author: "Rachel Chung"
+date: "9/21/2021"
+output: html_document
+---
+
+> # Print all integers from 1 to 10
+> # Print in a for loop
+
+> x<-seq.int(1,10)
+> for (i in x) {
++     print(i)
++ }
