@@ -1,13 +1,5 @@
-Version: 1.0
+# Print all integers 1 to 10
+# Print in a for loop
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+x<-seq.int(1,10)
+for (i in x) {
